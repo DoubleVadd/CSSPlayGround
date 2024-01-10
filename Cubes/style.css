@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.square{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* transform: translateX(-50%); */
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: all 1s ease-in-out 0;
+}
+
+.s1{
+    background-color: paleturquoise;
+    
+}
+
+.s2{
+    background-color: blue;
+}
+.s3{
+    background-color: purple;
+}
+.s4{
+    background-color: yellow;
+}
+.s5{
+    background-color: green;
+    transform: translate(25px, -75px) skewX(-45deg) scaleY(0.5);
+}
+
+.s5:hover{
+    background-color: green;
+    transform: perspective() translate3d(100px 100px 100px);
+}
+
+
+
+.s6{
+    background-color: wheat ;
+    transform: translate(75px, -25px) skewY(-45deg) scaleX(0.5);
+}
+
+.square:hover{
+    transform: perspective() translate3d(100px 100px 100px);
+}
