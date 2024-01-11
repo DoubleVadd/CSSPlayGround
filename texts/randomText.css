@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    font-family: monospace;
+    /* position: absolute; */
+    /* letter-spacing: 1rem; */
+    font-size: 5rem;
+    color: white;
+    text-transform:uppercase;
+    padding: 2rem;
+    margin: 0;
+
+}
+
+.scribles{
+    text-align: center;
+    /* position: relative; */
+    margin-top: auto;
+    padding: 3rem;
+    text-wrap:pretty;
+    /* background-color: red; */
+    font-weight: 900;}

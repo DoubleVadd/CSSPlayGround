@@ -11,6 +11,15 @@ body{
     position: relative;
 }
 
+.cube {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-100px);
+    transition: transform 1s;
+  }
+
 .square{
     position: absolute;
     left: 50%;
@@ -20,6 +29,7 @@ body{
     height: 100px;
     background-color: purple;
     transition: all 1s ease-in-out 0;
+    transform-style: preserve-3d;
 }
 
 .s1{
