@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dropdownModal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="open"> Open Modal </button>
+    <dialog> 
+        <h1>Look at this modal</h1>
+        <h2>popped up very cool</h2>
+        <button class="close">close</button>
+
+
+    </dialog>
+</body>
+</html>
+
+<script defer>
+
+    
+    const btn  = document.querySelector('.open')
+    const btn2 =document.querySelector('.close')
+    btn.addEventListener('click', toggleModal)
+    btn2.addEventListener('click', toggleModal)
+
+    function toggleModal(){
+        const mod = document.querySelector('dialog')
+        mod.classList.toggle('show')
+        mod.open ? mod.close() : mod.showModal()
+    }
+
+
+</script>

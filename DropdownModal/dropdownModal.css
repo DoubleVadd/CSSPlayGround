@@ -1,0 +1,33 @@
+button{
+    border: none;
+    padding: 1rem;
+    width: fit-content;
+    background-color: lightblue;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+dialog{
+    display: absolute;
+    left: 0;
+    top: 0;
+}
+
+dialog.show{
+    animation-duration: 1s;
+    animation-name: moveDown;
+    animation-iteration-count: 1;
+}
+
+@keyframes moveDown{
+    from {
+        margin-top: 0%;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 20%;
+        opacity: 1;
+    }
+}
