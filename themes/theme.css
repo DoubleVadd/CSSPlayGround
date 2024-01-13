@@ -1,0 +1,22 @@
+body{
+
+    background-color: black;
+}
+
+
+ul{
+     list-style-type: none;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     display: grid;
+     grid-template-columns: repeat(10, 1fr);
+     
+}
+
+li{
+
+    background-color: white;
+    width: 1fr;
+    aspect-ratio: 1;
+}
