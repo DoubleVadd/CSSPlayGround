@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    outline: 1px solid black;
+    border-radius: 100%;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    transition: 10s;
+}
+
+.circle.active{
+    scale: 100;
+}
+
+
+.circle2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100%;
+    /* transform: scale(10000px, 1000px); */
+}
+
